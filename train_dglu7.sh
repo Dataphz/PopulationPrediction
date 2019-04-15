@@ -1,0 +1,1 @@
+python main.py --gpu $1 --model dglu_7 --transform --t 30 --predict_days 1 --epochs 200 --lr 1e-3 --lr_schedule 30,100 --test_time 10
